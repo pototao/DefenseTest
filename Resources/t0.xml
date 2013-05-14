@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>t0.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>tstand0</name>
+            <delay>0.3</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>MachineGunTurret.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>e1.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>cstand1</name>
+            <delay>0.3</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>Enemy1.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

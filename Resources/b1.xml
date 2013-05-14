@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>objsImg.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>bstand1</name>
+            <delay>0.3</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>IceProjectile.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

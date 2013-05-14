@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E3E76D7-9AF7-4FF0-999A-0A16E214B290}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>D:\cocos2d-2.1rc0-x-2.1.3\$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>d:\cocos2d-x\$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\include;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\kazmath\include;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\win32;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32\OGLES;D:\cocos2d-2.1rc0-x-2.1.3\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;libExtensions.lib;opengl32.lib;glew32.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>TowerDefenseCCX.h</HeaderFileName>
+      <InterfaceIdentifierFileName>TowerDefenseCCX_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>TowerDefenseCCX_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/TowerDefenseCCX.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;d:\cocos2d-x\cocos2dx;d:\cocos2d-x\cocos2dx\include;d:\cocos2d-x\cocos2dx\kazmath\include;d:\cocos2d-x\cocos2dx\platform\win32;d:\cocos2d-x\cocos2dx\platform\third_party\win32;d:\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES;d:\cocos2d-x\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;libExtensions.lib;opengl32.lib;glew32.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>TowerDefenseCCX.h</HeaderFileName>
+      <InterfaceIdentifierFileName>TowerDefenseCCX_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>TowerDefenseCCX_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/TowerDefenseCCX.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\Resources\b0.xml" />
+    <None Include="..\Resources\b1.xml" />
+    <None Include="..\Resources\CloseNormal.png" />
+    <None Include="..\Resources\CloseSelected.png" />
+    <None Include="..\Resources\e0.plist" />
+    <None Include="..\Resources\e0.png" />
+    <None Include="..\Resources\e0.xml" />
+    <None Include="..\Resources\e1.plist" />
+    <None Include="..\Resources\e1.png" />
+    <None Include="..\Resources\e1.xml" />
+    <None Include="..\Resources\HelloWorld.png" />
+    <None Include="..\Resources\objsImg.plist" />
+    <None Include="..\Resources\objsImg.png" />
+    <None Include="..\Resources\towerInfo.data" />
+    <None Include="res\TowerDefenseCCX.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TowerDefenseCCX.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\cgw\DataModel.cpp" />
+    <ClCompile Include="..\Classes\cgw\GameHUD.cpp" />
+    <ClCompile Include="..\Classes\cgw\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\cgw\Wave.cpp" />
+    <ClCompile Include="..\Classes\cgw\WayPoint.cpp" />
+    <ClCompile Include="..\Classes\data\Info.cpp" />
+    <ClCompile Include="..\Classes\framework\DataInputStream.cpp" />
+    <ClCompile Include="..\Classes\framework\MySQLite.cpp" />
+    <ClCompile Include="..\Classes\framework\sqlite3.c" />
+    <ClCompile Include="..\Classes\framework\Util.cpp" />
+    <ClCompile Include="..\Classes\LGAD\AnimatePacker.cpp" />
+    <ClCompile Include="..\Classes\LGAD\AnimatePackerCache.cpp" />
+    <ClCompile Include="..\Classes\LGAD\CCSpriteLG.cpp" />
+    <ClCompile Include="..\Classes\objs\Bullet.cpp" />
+    <ClCompile Include="..\Classes\objs\Creeps.cpp" />
+    <ClCompile Include="..\Classes\objs\Role.cpp" />
+    <ClCompile Include="..\Classes\objs\Towers.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\cgw\DataModel.h" />
+    <ClInclude Include="..\Classes\cgw\GameConfig.h" />
+    <ClInclude Include="..\Classes\cgw\GameHUD.h" />
+    <ClInclude Include="..\Classes\cgw\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\cgw\Wave.h" />
+    <ClInclude Include="..\Classes\cgw\WayPoint.h" />
+    <ClInclude Include="..\Classes\data\Consts.h" />
+    <ClInclude Include="..\Classes\data\GameData.h" />
+    <ClInclude Include="..\Classes\data\Info.h" />
+    <ClInclude Include="..\Classes\framework\DataInputStream.h" />
+    <ClInclude Include="..\Classes\framework\DataType.h" />
+    <ClInclude Include="..\Classes\framework\MySQLite.h" />
+    <ClInclude Include="..\Classes\framework\sqlite3.h" />
+    <ClInclude Include="..\Classes\framework\Util.h" />
+    <ClInclude Include="..\Classes\LGAD\AnimatePacker.h" />
+    <ClInclude Include="..\Classes\LGAD\AnimatePackerCache.h" />
+    <ClInclude Include="..\Classes\LGAD\CCSpriteLG.h" />
+    <ClInclude Include="..\Classes\LGAD\Singleton.h" />
+    <ClInclude Include="..\Classes\objs\Bullet.h" />
+    <ClInclude Include="..\Classes\objs\Creeps.h" />
+    <ClInclude Include="..\Classes\objs\Role.h" />
+    <ClInclude Include="..\Classes\objs\Towers.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

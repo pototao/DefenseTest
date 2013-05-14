@@ -1,0 +1,48 @@
+﻿生成启动时间为 2013/5/14 15:57:15。
+     1>项目“D:\cocos2d\TowerDefenseCCX-win32\proj.win32\TowerDefenseCCX.win32.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\TowerDefenseCCX.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\kazmath\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-2.1rc0-x-2.1.3\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\LGAD\AnimatePacker.cpp
+         AnimatePacker.cpp
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cocos2d-2.1rc0-x-2.1.3\Debug.win32\TowerDefenseCCX.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\cocos2d-2.1rc0-x-2.1.3\Debug.win32\\" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\TowerDefenseCCX.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\cocos2d-2.1rc0-x-2.1.3\Debug.win32\TowerDefenseCCX.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cocos2d-2.1rc0-x-2.1.3\Debug.win32\TowerDefenseCCX.win32.lib" /MACHINE:X86 Debug.win32\TowerDefenseCCX.res
+         Debug.win32\TowerDefenseCCX.win32.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\DataModel.obj
+         Debug.win32\GameHUD.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\Wave.obj
+         Debug.win32\WayPoint.obj
+         Debug.win32\Info.obj
+         Debug.win32\DataInputStream.obj
+         Debug.win32\MySQLite.obj
+         Debug.win32\sqlite3.obj
+         Debug.win32\Util.obj
+         Debug.win32\AnimatePacker.obj
+         Debug.win32\AnimatePackerCache.obj
+         Debug.win32\CCSpriteLG.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Creeps.obj
+         Debug.win32\Role.obj
+         Debug.win32\Towers.obj
+         Debug.win32\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\TowerDefenseCCX.win32.exe.embed.manifest" /manifest Debug.win32\TowerDefenseCCX.win32.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         TowerDefenseCCX.win32.vcxproj -> D:\cocos2d-2.1rc0-x-2.1.3\Debug.win32\TowerDefenseCCX.win32.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\TowerDefenseCCX.win32.unsuccessfulbuild”。
+         正在对“Debug.win32\TowerDefenseCCX.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\cocos2d\TowerDefenseCCX-win32\proj.win32\TowerDefenseCCX.win32.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.79

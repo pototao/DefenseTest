@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{4ab40a5c-edaa-45df-8176-ffaa836f6c76}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{7674d3bf-d734-479e-9571-a809e29042ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{924d23b0-8f86-4e9d-ac6d-e6590ceb6973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cgw">
+      <UniqueIdentifier>{887ffdc5-84ec-4c37-b14e-4052db04a23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\framework">
+      <UniqueIdentifier>{1450de31-aa80-44c0-aaff-80085979c17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\LGAD">
+      <UniqueIdentifier>{3570ef12-0990-45f3-a5d4-e883f00065d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\objs">
+      <UniqueIdentifier>{43453ac6-be30-4c21-b91b-f54b0ffc9864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\data">
+      <UniqueIdentifier>{40f77075-a782-4be7-9b5d-2e264fc09057}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TowerDefenseCCX.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\towerInfo.data">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\e1.xml">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\e0.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\e0.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\e0.xml">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\e1.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\e1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\b0.xml">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\b1.xml">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\objsImg.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\objsImg.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TowerDefenseCCX.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LGAD\AnimatePacker.cpp">
+      <Filter>Classes\LGAD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LGAD\AnimatePackerCache.cpp">
+      <Filter>Classes\LGAD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LGAD\CCSpriteLG.cpp">
+      <Filter>Classes\LGAD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\framework\DataInputStream.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\framework\sqlite3.c">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\framework\Util.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cgw\DataModel.cpp">
+      <Filter>Classes\cgw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cgw\GameHUD.cpp">
+      <Filter>Classes\cgw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cgw\HelloWorldScene.cpp">
+      <Filter>Classes\cgw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cgw\Wave.cpp">
+      <Filter>Classes\cgw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cgw\WayPoint.cpp">
+      <Filter>Classes\cgw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\framework\MySQLite.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\objs\Role.cpp">
+      <Filter>Classes\objs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\Info.cpp">
+      <Filter>Classes\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\objs\Creeps.cpp">
+      <Filter>Classes\objs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\objs\Towers.cpp">
+      <Filter>Classes\objs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\objs\Bullet.cpp">
+      <Filter>Classes\objs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LGAD\AnimatePacker.h">
+      <Filter>Classes\LGAD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LGAD\AnimatePackerCache.h">
+      <Filter>Classes\LGAD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LGAD\CCSpriteLG.h">
+      <Filter>Classes\LGAD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LGAD\Singleton.h">
+      <Filter>Classes\LGAD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\DataInputStream.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\DataType.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\sqlite3.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\Util.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cgw\DataModel.h">
+      <Filter>Classes\cgw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cgw\GameConfig.h">
+      <Filter>Classes\cgw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cgw\GameHUD.h">
+      <Filter>Classes\cgw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cgw\HelloWorldScene.h">
+      <Filter>Classes\cgw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cgw\Wave.h">
+      <Filter>Classes\cgw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cgw\WayPoint.h">
+      <Filter>Classes\cgw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\MySQLite.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\objs\Role.h">
+      <Filter>Classes\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\Consts.h">
+      <Filter>Classes\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\Info.h">
+      <Filter>Classes\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\objs\Creeps.h">
+      <Filter>Classes\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\GameData.h">
+      <Filter>Classes\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\objs\Towers.h">
+      <Filter>Classes\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\objs\Bullet.h">
+      <Filter>Classes\objs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

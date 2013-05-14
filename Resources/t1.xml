@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>t1.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>tstand1</name>
+            <delay>0.3</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>FreezeTurret.png</spriteFrame>
+        </animation>
+    </animations>
+</root>
