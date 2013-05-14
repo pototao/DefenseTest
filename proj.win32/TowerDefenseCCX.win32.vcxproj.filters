@@ -26,6 +26,21 @@
     <Filter Include="Classes\data">
       <UniqueIdentifier>{40f77075-a782-4be7-9b5d-2e264fc09057}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\ryq">
+      <UniqueIdentifier>{83e9f446-6126-4cdc-b0c9-64960818fd78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ryq\Item">
+      <UniqueIdentifier>{418a429a-b302-4f62-990d-d25b183b6acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ryq\Item\ItemData">
+      <UniqueIdentifier>{06350dc5-b327-4af5-8878-1e0e3abb4078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ryq\Item\ItemProto">
+      <UniqueIdentifier>{fe8207ee-9a56-49d6-a723-a7c047e70e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ryq\Item\ItemLayer">
+      <UniqueIdentifier>{7cdd5246-7cf3-497b-b895-a06989881c4b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\TowerDefenseCCX.ico">
@@ -137,6 +152,12 @@
     <ClCompile Include="..\Classes\objs\Bullet.cpp">
       <Filter>Classes\objs</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\ryq\ItemProto\ItemBasicProto.cpp">
+      <Filter>Classes\ryq\Item\ItemProto</Filter>
+    </ClCompile>
+    <ClCompile Include="GameItemBar.cpp">
+      <Filter>Classes\ryq\Item</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -213,6 +234,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\objs\Bullet.h">
       <Filter>Classes\objs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ryq\ItemProto\ItemBasicProto.h">
+      <Filter>Classes\ryq\Item\ItemProto</Filter>
+    </ClInclude>
+    <ClInclude Include="GameItemBar.h">
+      <Filter>Classes\ryq\Item</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

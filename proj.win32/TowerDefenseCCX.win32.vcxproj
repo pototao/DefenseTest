@@ -160,6 +160,8 @@
     <ClCompile Include="..\Classes\objs\Creeps.cpp" />
     <ClCompile Include="..\Classes\objs\Role.cpp" />
     <ClCompile Include="..\Classes\objs\Towers.cpp" />
+    <ClCompile Include="..\Classes\ryq\ItemProto\ItemBasicProto.cpp" />
+    <ClCompile Include="GameItemBar.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +188,8 @@
     <ClInclude Include="..\Classes\objs\Creeps.h" />
     <ClInclude Include="..\Classes\objs\Role.h" />
     <ClInclude Include="..\Classes\objs\Towers.h" />
+    <ClInclude Include="..\Classes\ryq\ItemProto\ItemBasicProto.h" />
+    <ClInclude Include="GameItemBar.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
