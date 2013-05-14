@@ -1,17 +1,66 @@
-﻿生成启动时间为 2013/5/14 17:32:57。
-     1>项目“D:\cocos2d\TowerDefenseCCX-win32\proj.win32\TowerDefenseCCX.win32.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Debug.win32\TowerDefenseCCX.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+﻿Build started 2013/5/14 20:15:04.
+     1>Project "D:\GitHub\DefenseTest\proj.win32\TowerDefenseCCX.win32.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\cocos2d-2.1rc0-x-2.1.3\Debug.win32\".
+       InitializeBuildStatus:
+         Touching "Debug.win32\TowerDefenseCCX.win32.unsuccessfulbuild".
        ClCompile:
-         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\kazmath\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-2.1rc0-x-2.1.3\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\ryq\item\ItemBasicProto.cpp GameItemBar.cpp
-         ItemBasicProto.cpp
-     1>c1xx : fatal error C1083: 无法打开源文件:“..\Classes\ryq\item\ItemBasicProto.cpp”: No such file or directory
-         正在生成代码...
-         正在编译...
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\kazmath\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-2.1rc0-x-2.1.3\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\cgw\DataModel.cpp ..\Classes\cgw\GameHUD.cpp ..\Classes\cgw\HelloWorldScene.cpp ..\Classes\cgw\Wave.cpp ..\Classes\cgw\WayPoint.cpp ..\Classes\data\Info.cpp ..\Classes\framework\DataInputStream.cpp ..\Classes\framework\MySQLite.cpp ..\Classes\framework\Util.cpp ..\Classes\LGAD\AnimatePacker.cpp ..\Classes\LGAD\AnimatePackerCache.cpp ..\Classes\LGAD\CCSpriteLG.cpp ..\Classes\objs\Bullet.cpp ..\Classes\objs\Creeps.cpp ..\Classes\objs\Role.cpp ..\Classes\objs\Towers.cpp ..\Classes\ryq\ItemProto\ItemBasicProto.cpp GameItemBar.cpp main.cpp
+         main.cpp
+     1>d:\github\defensetest\proj.win32\main.h(11): fatal error C1083: Cannot open include file: 'CCStdC.h': No such file or directory
          GameItemBar.cpp
-         正在生成代码...
-     1>已完成生成项目“D:\cocos2d\TowerDefenseCCX-win32\proj.win32\TowerDefenseCCX.win32.vcxproj”(build 个目标)的操作 - 失败。
+     1>d:\github\defensetest\proj.win32\gameitembar.h(2): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         ItemBasicProto.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\Classes\ryq\ItemProto\ItemBasicProto.cpp': No such file or directory
+         Towers.cpp
+     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Role.cpp
+     1>d:\github\defensetest\classes\objs\role.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Creeps.cpp
+     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Bullet.cpp
+     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         CCSpriteLG.cpp
+     1>d:\github\defensetest\classes\lgad\ccspritelg.h(2): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         AnimatePackerCache.cpp
+     1>d:\github\defensetest\classes\lgad\animatepackercache.h(2): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         AnimatePacker.cpp
+     1>d:\github\defensetest\classes\lgad\animatepacker.h(8): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Util.cpp
+     1>d:\github\defensetest\classes\framework\util.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\framework\util.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\framework\util.h(4): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         MySQLite.cpp
+     1>d:\github\defensetest\classes\framework\mysqlite.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\framework\mysqlite.h(14): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         DataInputStream.cpp
+     1>d:\github\defensetest\classes\framework\datainputstream.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\framework\datainputstream.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\framework\datainputstream.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Info.cpp
+     1>d:\github\defensetest\classes\data\info.h(14): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         WayPoint.cpp
+     1>d:\github\defensetest\classes\cgw\waypoint.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\cgw\waypoint.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Wave.cpp
+     1>d:\github\defensetest\classes\cgw\wave.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\cgw\wave.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         HelloWorldScene.cpp
+     1>d:\github\defensetest\classes\cgw\helloworldscene.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         GameHUD.cpp
+     1>d:\github\defensetest\classes\cgw\gamehud.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\cgw\gamehud.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\cgw\gamehud.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         DataModel.cpp
+     1>d:\github\defensetest\classes\cgw\datamodel.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\cgw\datamodel.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\github\defensetest\classes\cgw\datamodel.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         AppDelegate.cpp
+     1>d:\github\defensetest\classes\appdelegate.h(4): fatal error C1083: Cannot open include file: 'CCApplication.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\GitHub\DefenseTest\proj.win32\TowerDefenseCCX.win32.vcxproj" (build target(s)) -- FAILED.
 
-生成失败。
+Build FAILED.
 
-已用时间 00:00:03.42
+Time Elapsed 00:00:12.06
