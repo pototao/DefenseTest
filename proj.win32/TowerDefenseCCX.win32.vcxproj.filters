@@ -152,11 +152,17 @@
     <ClCompile Include="..\Classes\objs\Bullet.cpp">
       <Filter>Classes\objs</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\ryq\ItemProto\ItemBasicProto.cpp">
+    <ClCompile Include="..\Classes\ryq\Item\ItemProto\ItemBasicProto.cpp">
       <Filter>Classes\ryq\Item\ItemProto</Filter>
     </ClCompile>
-    <ClCompile Include="GameItemBar.cpp">
+    <ClCompile Include="..\Classes\ryq\Item\ItemData\ItemData.cpp">
+      <Filter>Classes\ryq\Item\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ryq\Item\GameItemBar.cpp">
       <Filter>Classes\ryq\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ryq\Item\ItemLayer\ItemBasicLayer.cpp">
+      <Filter>Classes\ryq\Item\ItemLayer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -235,11 +241,17 @@
     <ClInclude Include="..\Classes\objs\Bullet.h">
       <Filter>Classes\objs</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\ryq\ItemProto\ItemBasicProto.h">
+    <ClInclude Include="..\Classes\ryq\Item\ItemProto\ItemBasicProto.h">
       <Filter>Classes\ryq\Item\ItemProto</Filter>
     </ClInclude>
-    <ClInclude Include="GameItemBar.h">
+    <ClInclude Include="..\Classes\ryq\Item\ItemData\ItemData.h">
+      <Filter>Classes\ryq\Item\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ryq\Item\GameItemBar.h">
       <Filter>Classes\ryq\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ryq\Item\ItemLayer\ItemBasicLayer.h">
+      <Filter>Classes\ryq\Item\ItemLayer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

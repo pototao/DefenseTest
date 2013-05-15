@@ -1,66 +1,153 @@
-﻿Build started 2013/5/14 20:15:04.
-     1>Project "D:\GitHub\DefenseTest\proj.win32\TowerDefenseCCX.win32.vcxproj" on node 2 (build target(s)).
-     1>PrepareForBuild:
-         Creating directory "D:\cocos2d-2.1rc0-x-2.1.3\Debug.win32\".
-       InitializeBuildStatus:
-         Touching "Debug.win32\TowerDefenseCCX.win32.unsuccessfulbuild".
+﻿生成启动时间为 2013/5/15 10:06:29。
+     1>项目“D:\cocos2d\TowerDefenseCCX-win32\DefenseTest\proj.win32\TowerDefenseCCX.win32.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\TowerDefenseCCX.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\kazmath\include" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-2.1rc0-x-2.1.3\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\cgw\DataModel.cpp ..\Classes\cgw\GameHUD.cpp ..\Classes\cgw\HelloWorldScene.cpp ..\Classes\cgw\Wave.cpp ..\Classes\cgw\WayPoint.cpp ..\Classes\data\Info.cpp ..\Classes\framework\DataInputStream.cpp ..\Classes\framework\MySQLite.cpp ..\Classes\framework\Util.cpp ..\Classes\LGAD\AnimatePacker.cpp ..\Classes\LGAD\AnimatePackerCache.cpp ..\Classes\LGAD\CCSpriteLG.cpp ..\Classes\objs\Bullet.cpp ..\Classes\objs\Creeps.cpp ..\Classes\objs\Role.cpp ..\Classes\objs\Towers.cpp ..\Classes\ryq\ItemProto\ItemBasicProto.cpp GameItemBar.cpp main.cpp
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"D:\cocos2d-x\cocos2dx" /I"D:\cocos2d-x\cocos2dx\include" /I"D:\cocos2d-x\cocos2dx\kazmath\include" /I"D:\cocos2d-x\cocos2dx\platform\win32" /I"D:\cocos2d-x\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-x\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\cgw\DataModel.cpp ..\Classes\cgw\GameHUD.cpp ..\Classes\cgw\HelloWorldScene.cpp ..\Classes\cgw\Wave.cpp ..\Classes\cgw\WayPoint.cpp ..\Classes\data\Info.cpp ..\Classes\framework\DataInputStream.cpp ..\Classes\framework\MySQLite.cpp ..\Classes\framework\Util.cpp ..\Classes\LGAD\AnimatePacker.cpp ..\Classes\LGAD\AnimatePackerCache.cpp ..\Classes\LGAD\CCSpriteLG.cpp ..\Classes\objs\Bullet.cpp ..\Classes\objs\Creeps.cpp ..\Classes\objs\Role.cpp ..\Classes\objs\Towers.cpp ..\Classes\ryq\Item\GameItemBar.cpp ..\Classes\ryq\Item\ItemData\ItemData.cpp ..\Classes\ryq\Item\ItemLayer\ItemBasicLayer.cpp ..\Classes\ryq\Item\ItemProto\ItemBasicProto.cpp main.cpp
          main.cpp
-     1>d:\github\defensetest\proj.win32\main.h(11): fatal error C1083: Cannot open include file: 'CCStdC.h': No such file or directory
-         GameItemBar.cpp
-     1>d:\github\defensetest\proj.win32\gameitembar.h(2): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
          ItemBasicProto.cpp
-     1>c1xx : fatal error C1083: Cannot open source file: '..\Classes\ryq\ItemProto\ItemBasicProto.cpp': No such file or directory
+         ItemBasicLayer.cpp
+         ItemData.cpp
+         GameItemBar.cpp
          Towers.cpp
-     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\datamodel.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\objs\towers.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\objs\towers.cpp(50): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\objs\towers.cpp(109): warning C4305: “初始化”: 从“double”到“float”截断
          Role.cpp
-     1>d:\github\defensetest\classes\objs\role.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\objs\role.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Creeps.cpp
-     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\datamodel.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\objs\creeps.cpp(39): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\objs\creeps.cpp(75): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\objs\creeps.cpp(95): warning C4305: “初始化”: 从“double”到“float”截断
          Bullet.cpp
-     1>d:\github\defensetest\classes\objs\role.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
          CCSpriteLG.cpp
-     1>d:\github\defensetest\classes\lgad\ccspritelg.h(2): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
          AnimatePackerCache.cpp
-     1>d:\github\defensetest\classes\lgad\animatepackercache.h(2): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\lgad\animatepackercache.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\lgad\animatepackercache.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
          AnimatePacker.cpp
-     1>d:\github\defensetest\classes\lgad\animatepacker.h(8): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
          Util.cpp
-     1>d:\github\defensetest\classes\framework\util.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\framework\util.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\framework\util.h(4): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\util.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\datainputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          MySQLite.cpp
-     1>d:\github\defensetest\classes\framework\mysqlite.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\framework\mysqlite.h(14): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\mysqlite.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\datainputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          DataInputStream.cpp
-     1>d:\github\defensetest\classes\framework\datainputstream.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\framework\datainputstream.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\framework\datainputstream.h(13): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\datainputstream.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\datainputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\datainputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Info.cpp
-     1>d:\github\defensetest\classes\data\info.h(14): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\util.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\framework\datainputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          WayPoint.cpp
-     1>d:\github\defensetest\classes\cgw\waypoint.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\cgw\waypoint.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\waypoint.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Wave.cpp
-     1>d:\github\defensetest\classes\cgw\wave.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\cgw\wave.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\wave.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          HelloWorldScene.cpp
-     1>d:\github\defensetest\classes\cgw\helloworldscene.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\datamodel.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(46): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(83): warning C4018: “>”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(164): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(242): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(251): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(288): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(296): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(356): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\helloworldscene.cpp(407): warning C4018: “<”: 有符号/无符号不匹配
          GameHUD.cpp
-     1>d:\github\defensetest\classes\cgw\gamehud.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\cgw\gamehud.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\cgw\gamehud.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\datamodel.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.cpp(181): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
          DataModel.cpp
-     1>d:\github\defensetest\classes\cgw\datamodel.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\cgw\datamodel.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-     1>d:\github\defensetest\classes\cgw\datamodel.h(5): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\datamodel.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\datamodel.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          AppDelegate.cpp
-     1>d:\github\defensetest\classes\appdelegate.h(4): fatal error C1083: Cannot open include file: 'CCApplication.h': No such file or directory
-         Generating Code...
-     1>Done Building Project "D:\GitHub\DefenseTest\proj.win32\TowerDefenseCCX.win32.vcxproj" (build target(s)) -- FAILED.
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\cocos2d\towerdefenseccx-win32\defensetest\classes\cgw\gamehud.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"D:\cocos2d-x\cocos2dx" /I"D:\cocos2d-x\cocos2dx\include" /I"D:\cocos2d-x\cocos2dx\kazmath\include" /I"D:\cocos2d-x\cocos2dx\platform\win32" /I"D:\cocos2d-x\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-x\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TC /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\framework\sqlite3.c
+         sqlite3.c
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug.win32\ /nologo /fo"Debug.win32\TowerDefenseCCX.res" TowerDefenseCCX.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\TowerDefenseCCX.win32.exe.embed.manifest.res" Debug.win32\TowerDefenseCCX.win32_manifest.rc 
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug.win32\TowerDefenseCCX.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:Debug.win32\ "D:\cocos2d-x\Debug.win32\libcocos2d.lib" "D:\cocos2d-x\Debug.win32\libExtensions.lib" "D:\cocos2d-x\Debug.win32\glew32.lib" "D:\cocos2d-x\Debug.win32\libCocosDenshion.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\TowerDefenseCCX.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\cocos2d\TowerDefenseCCX-win32\DefenseTest\proj.win32\Debug.win32\TowerDefenseCCX.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug.win32\TowerDefenseCCX.win32.lib" /MACHINE:X86 Debug.win32\TowerDefenseCCX.res
+         Debug.win32\TowerDefenseCCX.win32.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\DataModel.obj
+         Debug.win32\GameHUD.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\Wave.obj
+         Debug.win32\WayPoint.obj
+         Debug.win32\Info.obj
+         Debug.win32\DataInputStream.obj
+         Debug.win32\MySQLite.obj
+         Debug.win32\sqlite3.obj
+         Debug.win32\Util.obj
+         Debug.win32\AnimatePacker.obj
+         Debug.win32\AnimatePackerCache.obj
+         Debug.win32\CCSpriteLG.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Creeps.obj
+         Debug.win32\Role.obj
+         Debug.win32\Towers.obj
+         Debug.win32\GameItemBar.obj
+         Debug.win32\ItemData.obj
+         Debug.win32\ItemBasicLayer.obj
+         Debug.win32\ItemBasicProto.obj
+         Debug.win32\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\TowerDefenseCCX.win32.exe.embed.manifest" /manifest Debug.win32\TowerDefenseCCX.win32.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\TowerDefenseCCX.win32.exe.embed.manifest.res" Debug.win32\TowerDefenseCCX.win32_manifest.rc 
+       LinkEmbedManifest:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug.win32\TowerDefenseCCX.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:Debug.win32\ "D:\cocos2d-x\Debug.win32\libcocos2d.lib" "D:\cocos2d-x\Debug.win32\libExtensions.lib" "D:\cocos2d-x\Debug.win32\glew32.lib" "D:\cocos2d-x\Debug.win32\libCocosDenshion.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\TowerDefenseCCX.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\cocos2d\TowerDefenseCCX-win32\DefenseTest\proj.win32\Debug.win32\TowerDefenseCCX.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug.win32\TowerDefenseCCX.win32.lib" /MACHINE:X86 Debug.win32\TowerDefenseCCX.res
+         Debug.win32\TowerDefenseCCX.win32.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\DataModel.obj
+         Debug.win32\GameHUD.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\Wave.obj
+         Debug.win32\WayPoint.obj
+         Debug.win32\Info.obj
+         Debug.win32\DataInputStream.obj
+         Debug.win32\MySQLite.obj
+         Debug.win32\sqlite3.obj
+         Debug.win32\Util.obj
+         Debug.win32\AnimatePacker.obj
+         Debug.win32\AnimatePackerCache.obj
+         Debug.win32\CCSpriteLG.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Creeps.obj
+         Debug.win32\Role.obj
+         Debug.win32\Towers.obj
+         Debug.win32\GameItemBar.obj
+         Debug.win32\ItemData.obj
+         Debug.win32\ItemBasicLayer.obj
+         Debug.win32\ItemBasicProto.obj
+         Debug.win32\main.obj
+         TowerDefenseCCX.win32.vcxproj -> D:\cocos2d\TowerDefenseCCX-win32\DefenseTest\proj.win32\Debug.win32\TowerDefenseCCX.win32.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\TowerDefenseCCX.win32.unsuccessfulbuild”。
+         正在对“Debug.win32\TowerDefenseCCX.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\cocos2d\TowerDefenseCCX-win32\DefenseTest\proj.win32\TowerDefenseCCX.win32.vcxproj”(build 个目标)的操作。
 
-Build FAILED.
+生成成功。
 
-Time Elapsed 00:00:12.06
+已用时间 00:00:40.61

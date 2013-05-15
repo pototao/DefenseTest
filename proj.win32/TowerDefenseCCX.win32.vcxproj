@@ -35,7 +35,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>D:\cocos2d-2.1rc0-x-2.1.3\$(Configuration).win32\</OutDir>
+    <OutDir>$(Configuration).win32\</OutDir>
     <IntDir>$(Configuration).win32\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;..\Classes;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\include;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\kazmath\include;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\win32;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32;D:\cocos2d-2.1rc0-x-2.1.3\cocos2dx\platform\third_party\win32\OGLES;D:\cocos2d-2.1rc0-x-2.1.3\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..\Classes;D:\cocos2d-x\cocos2dx;D:\cocos2d-x\cocos2dx\include;D:\cocos2d-x\cocos2dx\kazmath\include;D:\cocos2d-x\cocos2dx\platform\win32;D:\cocos2d-x\cocos2dx\platform\third_party\win32;D:\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES;D:\cocos2d-x\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
@@ -63,7 +63,7 @@
       <TargetMachine>MachineX86</TargetMachine>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libcocos2d.lib;libExtensions.lib;opengl32.lib;glew32.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>D:\cocos2d-x\Debug.win32\libcocos2d.lib;D:\cocos2d-x\Debug.win32\libExtensions.lib;D:\cocos2d-x\Debug.win32\glew32.lib;D:\cocos2d-x\Debug.win32\libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ResourceCompile>
       <Culture>0x0409</Culture>
@@ -160,8 +160,10 @@
     <ClCompile Include="..\Classes\objs\Creeps.cpp" />
     <ClCompile Include="..\Classes\objs\Role.cpp" />
     <ClCompile Include="..\Classes\objs\Towers.cpp" />
-    <ClCompile Include="..\Classes\ryq\ItemProto\ItemBasicProto.cpp" />
-    <ClCompile Include="GameItemBar.cpp" />
+    <ClCompile Include="..\Classes\ryq\Item\GameItemBar.cpp" />
+    <ClCompile Include="..\Classes\ryq\Item\ItemData\ItemData.cpp" />
+    <ClCompile Include="..\Classes\ryq\Item\ItemLayer\ItemBasicLayer.cpp" />
+    <ClCompile Include="..\Classes\ryq\Item\ItemProto\ItemBasicProto.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -188,8 +190,10 @@
     <ClInclude Include="..\Classes\objs\Creeps.h" />
     <ClInclude Include="..\Classes\objs\Role.h" />
     <ClInclude Include="..\Classes\objs\Towers.h" />
-    <ClInclude Include="..\Classes\ryq\ItemProto\ItemBasicProto.h" />
-    <ClInclude Include="GameItemBar.h" />
+    <ClInclude Include="..\Classes\ryq\Item\GameItemBar.h" />
+    <ClInclude Include="..\Classes\ryq\Item\ItemData\ItemData.h" />
+    <ClInclude Include="..\Classes\ryq\Item\ItemLayer\ItemBasicLayer.h" />
+    <ClInclude Include="..\Classes\ryq\Item\ItemProto\ItemBasicProto.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
